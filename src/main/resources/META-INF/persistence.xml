@@ -5,7 +5,13 @@
     <exclude-unlisted-classes>false</exclude-unlisted-classes>
     <properties>
       <!-- Configure your database connection information here -->
-      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/shoeshop"/>
+<!--      <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://ec2-44-193-111-218.compute-1.amazonaws.com:5432/d501lvhvers9c8"/>-->
+<!--      <property name="javax.persistence.jdbc.user" value="abmgdvsektebik"/>-->
+<!--      <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver"/>-->
+<!--      <property name="javax.persistence.jdbc.password" value="5ac4cc5205e919ea1128a8114486247443d2627b31bd40304b9a0e07d92d520d"/>-->
+<!--      <property name="javax.persistence.schema-generation.database.action" value="create"/>-->
+
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://mysql-61237-0.cloudclusters.net:10850/webtravel"/>
       <property name="javax.persistence.jdbc.user" value="root"/>
       <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
       <property name="javax.persistence.jdbc.password" value="DoemVictory2021"/>
